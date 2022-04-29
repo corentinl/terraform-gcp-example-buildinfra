@@ -36,5 +36,5 @@ Within `provider.tf` replace the following placeholder with your GCP project ID 
 
 ## Lab instructions
 
-Follow instructions in instructions folder of this repository [instruction01.md](https://github.com/corentinl/terraform-gcp-example-buildinfra/instructions/instruction01.md)
+Follow instructions in instructions folder of this repository [instruction01.md](https://github.com/corentinl/terraform-gcp-example-buildinfra/blob/main/instructions/instruction01.md)
 
