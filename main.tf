@@ -10,13 +10,17 @@ resource "google_compute_instance" "instance01" {
 
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-9"
+      image = "centos-cloud/centos-7"
     }
   }
 
   network_interface {
+    //maybe you don't have a default network on your projet.
+    // in this case use for example instead: subnet_name  = "projects/MYPROJECT/regions/MYREGION/subnetworks/MYSUBNETNAME"
     network = "default"
 
+
+    // remove that if you don't want public IP for your instance
     access_config {
       // Ephemeral public IP
     }
