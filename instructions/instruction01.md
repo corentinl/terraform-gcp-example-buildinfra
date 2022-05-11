@@ -1,4 +1,4 @@
-Open Google Cloud Shell editor with our blank Terraform project alreday cloned in it thank to the button below:  
+Open Google Cloud Shell editor with our blank Terraform project already cloned in it thanks to the button below:  
 [![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://shell.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/corentinl/terraform-gcp-example-blank.git)
 
 # Prerequisites
