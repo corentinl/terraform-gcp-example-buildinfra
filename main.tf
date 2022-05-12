@@ -16,7 +16,7 @@ resource "google_compute_instance" "instance01" {
 
   network_interface {
     //maybe you don't have a default network on your projet.
-    // in this case use for example instead: subnet_name  = "projects/MYPROJECT/regions/MYREGION/subnetworks/MYSUBNETNAME"
+    // in this case use for example instead: subnetwork  = "projects/MYPROJECT/regions/MYREGION/subnetworks/MYSUBNETNAME"
     network = "default"
 
 
